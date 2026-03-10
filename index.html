@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cozy Homestay</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f5f5f5;
+}
+
+header{
+    background:#4CAF50;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#333;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    padding:14px 20px;
+    display:inline-block;
+    text-decoration:none;
+}
+
+nav a:hover{
+    background:#4CAF50;
+}
+
+.hero{
+    background:url("https://images.unsplash.com/photo-1560185007-cde436f6a4d0") center/cover;
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h1{
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+}
+
+.container{
+    padding:40px;
+}
+
+.rooms{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.room{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    flex:1;
+    min-width:250px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.room img{
+    width:100%;
+    border-radius:10px;
+}
+
+.book{
+    background:#4CAF50;
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    background:white;
+    color:#4CAF50;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Cozy Homestay</h1>
+<p>Your Home Away From Home</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#rooms">Rooms</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Relax, Stay, and Enjoy Your Vacation</h1>
+</section>
+
+<section class="container" id="about">
+<h2>About Our Homestay</h2>
+<p>
+Welcome to Cozy Homestay. We provide comfortable rooms, friendly hospitality,
+and a peaceful environment for travelers. Enjoy local culture and relax in a
+home-like atmosphere.
+</p>
+</section>
+
+<section class="container" id="rooms">
+<h2>Our Rooms</h2>
+
+<div class="rooms">
+
+<div class="room">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85">
+<h3>Standard Room</h3>
+<p>Comfortable room with free WiFi, air conditioning, and a cozy bed.</p>
+</div>
+
+<div class="room">
+<img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2">
+<h3>Family Room</h3>
+<p>Perfect for families with spacious beds and beautiful views.</p>
+</div>
+
+<div class="room">
+<img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511">
+<h3>Deluxe Room</h3>
+<p>Luxury room with balcony and modern amenities.</p>
+</div>
+
+</div>
+</section>
+
+<section class="book">
+<h2>Book Your Stay Today</h2>
+<p>Enjoy comfort and unforgettable memories.</p>
+<button>Book Now</button>
+</section>
+
+<footer id="contact">
+<p>Contact: info@cozyhomestay.com | Phone: +123456789</p>
+<p>© 2026 Cozy Homestay</p>
+</footer>
+
+</body>
+</html>
